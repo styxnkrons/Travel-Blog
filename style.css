@@ -48,3 +48,41 @@ a {
     flex-direction:column;
     justify-content: space-evenly;
 }
+.four{
+    flex-grow: 2;
+    border: blue dashed 3px;
+}
+.five{
+    flex-grow: 2;
+    border: blue dashed 3px;
+}
+.six{
+    flex-grow: 0;
+    flex-shrink: 1;
+    border: blue dashed 3px;
+}
+.third-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.seven{
+    flex-grow: 2;
+    flex-shrink: 1;
+    border: blue dashed 3px;
+}
+.eight{
+    flex-grow: 2;
+    flex-shrink: 1;
+    border: blue dashed 3px;
+}
+.nine{
+    flex-grow: 0;
+    flex-shrink: 1;
+    border: blue dashed 3px;
+}
+iframe{
+    height: 250px;
+    width: 300px;
+}
