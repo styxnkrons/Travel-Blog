@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color:red;
+
+}
+h2{
+    font-size: 20px;
+    color:blue;
+    text-align:center;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+.flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a {
+    display: block;
+    text-decoration: none
+}
+.flexbox-item {
+    width: 350px;
+    height: 400px;
+}
+.one {
+    flex-shrink: 0;
+    flex-grow: 2;
+    border: blue dashed 3px;
+}
+.two{
+    flex-grow: 2;
+    flex-shrink: 1;
+    border: blue dashed 3px;
+}
+.three{
+    flex-shrink: 1;
+    flex-grow: 0;
+    border: blue dashed 3px;
+}
+.second-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
